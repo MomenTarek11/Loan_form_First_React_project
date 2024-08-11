@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 40%;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0.336);
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.281);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  border-radius: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding-bottom: 3px;
+}
+
+button {
+  width: 20%;
+  margin: auto;
+  margin-top: 5px;
+  background-color: brown;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(135, 109, 156);
+  color: white;
+}
+
+@media screen and (max-width: 444px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+hr {
+  width: 100%;
+}
+.disabled {
+  background-color: gray !important;
+}
