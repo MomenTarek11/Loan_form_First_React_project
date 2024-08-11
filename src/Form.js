@@ -35,7 +35,7 @@ export default function Form() {
     }
   }
   const btnIsDisabled =
-    formdetails.name == "" || formdetails.age == "" || formdetails.phone == "";
+    formdetails.name === "" || formdetails.age === "" || formdetails.phone === "";
   return (
     <div className="container" onClick={handleCloseDiv}>
       <form>
