@@ -1,2 +1,2 @@
-#Loan Form
-##Loan form with react js 
+# Loan Form
+## Loan form with react js 
